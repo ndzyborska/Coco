@@ -1,0 +1,70 @@
+.view {
+
+}
+.app-bar  {
+
+     -fx-background-color: black;
+
+}
+
+.backgroundP {
+
+-fx-background-image: url('/com/gluonapplication/views/images/images/wood.jpg');
+}
+
+
+.button {
+
+        -fx-height: 500px; /* You must set a specified height */
+        -fx-background-position: center; /* Center the image */
+        -fx-background-size: cover;
+        -fx-background-color: black;
+        -fx-focus-color: white;
+}
+
+.ingredients {
+
+            -fx-background-color: PINK;
+
+
+}
+
+.v {
+        -fx-height: 100px; /* You must set a specified height */
+        -fx-width: 100px; /* You must set a specified height */
+        -fx-background-position: center; /* Center the image */
+        -fx-background-size: cover;
+        -fx-background-color: black;
+        -fx-focus-color: white;
+
+}
+
+.imageDrop {
+         -fx-height: 100px; /* You must set a specified height */
+         -fx-width: 60px;
+         -fx-overflow: hidden;
+
+}
+
+.scroll {
+
+
+
+
+}
+
+
+
+
+.go {
+-fx-background-image: url('/go.png');
+
+
+
+}
+
+.i {
+-fx-opacity: 1;
+
+
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.mvc.View?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+
+<View fx:id="shopping" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gluonapplication.views.ShoppingPresenter">
+   <center>
+      <ScrollPane hbarPolicy="NEVER" prefWidth="350.0" vbarPolicy="NEVER" BorderPane.alignment="CENTER">
+         <content>
+            <AnchorPane minHeight="600.0" minWidth="0.0" prefHeight="808.0" prefWidth="350.0" style="-fx-background-color: ffab00;">
+               <children>
+                  <VBox fx:id="shoppingList" layoutY="97.0" minHeight="510.0" prefWidth="340.0" AnchorPane.leftAnchor="0.0" />
+                  <Label alignment="CENTER" layoutY="-1.0" prefHeight="59.0" prefWidth="350.0" style="-fx-font-size: 30; -fx-font-weight: bold; -fx-text-fill: black;" styleClass="listLabel" text="Your List" textAlignment="CENTER" />
+                  <Label alignment="CENTER" layoutY="59.0" prefHeight="38.0" prefWidth="140.0" style="-fx-font-size: 15; -fx-font-weight: bold; -fx-background-color: FFE298; -fx-text-fill: black;" text="Ingredients" textAlignment="CENTER" />
+                  <Label layoutX="140.0" layoutY="59.0" prefHeight="38.0" prefWidth="209.0" style="-fx-font-size: 15; -fx-font-weight: bold; -fx-background-color: FFE298; -fx-text-fill: black;" text="Amount" textAlignment="CENTER">
+                     <padding>
+                        <Insets left="30.0" />
+                     </padding>
+                  </Label>
+                  <Line endX="350.0" endY="164.0" layoutX="1.0" layoutY="-105.0" startX="-12.0" startY="164.0" stroke="#257c00" strokeWidth="5.0" style="-fx-fill: BLACK;" />
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+   </center>
+</View>

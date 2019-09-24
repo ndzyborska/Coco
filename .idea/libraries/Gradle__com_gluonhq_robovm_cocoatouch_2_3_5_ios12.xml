@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.gluonhq:robovm-cocoatouch:2.3.5-ios12">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.gluonhq/robovm-cocoatouch/2.3.5-ios12/ed8e87ecffee23a35fcd177c550f78f5501de461/robovm-cocoatouch-2.3.5-ios12.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.gluonhq/robovm-cocoatouch/2.3.5-ios12/6fcf886f47f51bcfbad49b747e3d6282a16b8ee1/robovm-cocoatouch-2.3.5-ios12-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

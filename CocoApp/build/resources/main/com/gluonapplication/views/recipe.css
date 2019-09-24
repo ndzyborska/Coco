@@ -1,0 +1,24 @@
+.view {
+
+}
+
+#ingredientList {
+
+        -fx-font-size: 15px;
+
+        -fx-label-padding: 0px 0px 0px 10px;
+
+
+}
+
+
+#amounts {
+        -fx-font-size: 15px;
+
+        -fx-label-padding: 0px 0px 0px 10px;
+
+
+
+}
+
+

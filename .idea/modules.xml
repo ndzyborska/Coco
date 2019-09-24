@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Coco.iml" filepath="$PROJECT_DIR$/Coco.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CocoApp/Coco.CocoApp.iml" filepath="$PROJECT_DIR$/.idea/modules/CocoApp/Coco.CocoApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CocoApp/Coco.CocoApp.android.iml" filepath="$PROJECT_DIR$/.idea/modules/CocoApp/Coco.CocoApp.android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CocoApp/Coco.CocoApp.desktop.iml" filepath="$PROJECT_DIR$/.idea/modules/CocoApp/Coco.CocoApp.desktop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CocoApp/Coco.CocoApp.embedded.iml" filepath="$PROJECT_DIR$/.idea/modules/CocoApp/Coco.CocoApp.embedded.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CocoApp/Coco.CocoApp.ios.iml" filepath="$PROJECT_DIR$/.idea/modules/CocoApp/Coco.CocoApp.ios.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CocoApp/Coco.CocoApp.main.iml" filepath="$PROJECT_DIR$/.idea/modules/CocoApp/Coco.CocoApp.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CocoApp/Coco.CocoApp.test.iml" filepath="$PROJECT_DIR$/.idea/modules/CocoApp/Coco.CocoApp.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/IdeaProjects.Coco.iml" filepath="$PROJECT_DIR$/.idea/modules/IdeaProjects.Coco.iml" />
+    </modules>
+  </component>
+</project>

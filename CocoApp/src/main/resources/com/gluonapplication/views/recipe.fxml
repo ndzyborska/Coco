@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.mvc.View?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.Line?>
+<View fx:id="recipe" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gluonapplication.views.RecipePresenter">
+    <center>
+        <ScrollPane fx:id="Scroll" hbarPolicy="NEVER" pannable="true" prefHeight="364.0" prefWidth="350.0" vbarPolicy="NEVER" BorderPane.alignment="CENTER">
+            <content>
+                <AnchorPane fx:id="myAnchor" minHeight="0.0" minWidth="0.0" prefHeight="550.0" prefWidth="1050.0">
+                    <children>
+                        <HBox minHeight="550.0" minWidth="350.0" prefHeight="550.0" prefWidth="1050.0">
+                            <children>
+                                <AnchorPane maxWidth="350.0" minWidth="350.0" prefHeight="550.0" prefWidth="350.0" style="-fx-background-color: ffab00;">
+                                    <children>
+                                        <ImageView fx:id="image" fitHeight="350.0" fitWidth="350.0" pickOnBounds="true" preserveRatio="true" />
+                                        <ScrollPane hbarPolicy="NEVER" layoutY="208.0" minHeight="342.0" minWidth="350.0" prefHeight="343.0" prefWidth="352.0" vbarPolicy="NEVER">
+                                            <content>
+                                                <AnchorPane minHeight="340.0" minWidth="350.0" prefWidth="350.0" style="-fx-background-color: ffab00;">
+                                                    <children>
+                                                        <VBox fx:id="ingredients" layoutX="-1.0" layoutY="1.0" maxWidth="356.0" minHeight="339.0" minWidth="350.0" prefWidth="350.0" style="-fx-background-color: ffab00;">
+                                                            <opaqueInsets>
+                                                                <Insets />
+                                                            </opaqueInsets></VBox>
+                                                    </children>
+                                                </AnchorPane>
+                                            </content>
+                                        </ScrollPane>
+                                        <Label layoutY="166.0" prefHeight="43.0" prefWidth="175.0" style="-fx-font-size: 15; -fx-text-fill: black; -fx-background-color: FFE298; -fx-font-weight: bold;" text="Quantity">
+                                            <padding>
+                                                <Insets left="20.0" />
+                                            </padding>
+                                        </Label>
+                                        <Label layoutX="175.0" layoutY="166.0" prefHeight="43.0" prefWidth="175.0" style="-fx-font-size: 15; -fx-background-color: FFE298; -fx-text-fill: black; -fx-font-weight: bold;" text="Ingredients">
+                                            <opaqueInsets>
+                                                <Insets />
+                                            </opaqueInsets>
+                                            <padding>
+                                                <Insets left="20.0" />
+                                            </padding>
+                                        </Label>
+                                        <Line endX="350.0" endY="164.0" layoutX="2.0" startX="-12.0" startY="164.0" stroke="#288600" strokeWidth="5.0" style="-fx-fill: BLACK;" />
+                                    </children></AnchorPane>
+                                <AnchorPane maxWidth="350.0" minHeight="550.0" minWidth="350.0" prefHeight="550.0" prefWidth="350.0" style="-fx-background-color: PINK;">
+                                    <children>
+                                        <ScrollPane minHeight="550.0" minWidth="350.0" prefHeight="550.0" prefWidth="352.0">
+                                            <content>
+                                                <AnchorPane minHeight="600.0" minWidth="350.0">
+                                                    <children>
+                                                        <VBox maxWidth="350.0" minHeight="600.0" minWidth="350.0" prefWidth="350.0" style="-fx-background-color: TEAL;" />
+                                                    </children>
+                                                </AnchorPane>
+                                            </content>
+                                        </ScrollPane>
+                                    </children>
+                                </AnchorPane>
+                                <AnchorPane maxWidth="350.0" minWidth="350.0" prefHeight="600.0" prefWidth="350.0" style="-fx-background-color: PINK;">
+                                    <children>
+                                        <ScrollPane minHeight="600.0" minWidth="350.0">
+                                            <content>
+                                                <AnchorPane minHeight="600.0" minWidth="350.0">
+                                                    <children>
+                                                        <VBox maxWidth="350.0" minHeight="600.0" minWidth="350.0" prefWidth="350.0" style="-fx-background-color: FEFCB3;" />
+                                                    </children>
+                                                </AnchorPane>
+                                            </content>
+                                        </ScrollPane>
+                                    </children>
+                                </AnchorPane>
+                            </children>
+                        </HBox>
+                    </children>
+                </AnchorPane>
+            </content>
+        </ScrollPane>
+    </center>
+</View>

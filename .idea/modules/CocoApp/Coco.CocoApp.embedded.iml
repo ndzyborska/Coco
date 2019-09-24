@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":CocoApp:embedded" external.linked.project.path="$MODULE_DIR$/../../../CocoApp" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="Coco" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/../../../CocoApp/out/embedded/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../CocoApp/src/embedded">
+      <sourceFolder url="file://$MODULE_DIR$/../../../CocoApp/src/embedded/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../CocoApp/src/embedded/resources" type="java-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: com.gluonhq:charm:5.0.2" level="project" />
+    <orderEntry type="module" module-name="Coco.CocoApp.main" />
+    <orderEntry type="library" name="Gradle: com.gluonhq:glisten-afterburner:1.4.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.poi:poi-ooxml:3.17" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.poi:poi:3.17" level="project" />
+    <orderEntry type="library" name="Gradle: com.gluonhq:charm-glisten-connect-view:5.0.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.gluonhq:charm-glisten:5.0.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.gluonhq:charm-down-plugin-display:3.8.6" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.gluonhq:charm-down-plugin-display-desktop:3.8.6" level="project" />
+    <orderEntry type="library" name="Gradle: com.gluonhq:charm-down-plugin-lifecycle:3.8.6" level="project" />
+    <orderEntry type="library" name="Gradle: com.gluonhq:charm-down-plugin-statusbar:3.8.6" level="project" />
+    <orderEntry type="library" name="Gradle: com.gluonhq:charm-cloudlink-client:4.5.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.gluonhq:charm-down-plugin-lifecycle-desktop:3.8.6" level="project" />
+    <orderEntry type="library" name="Gradle: com.gluonhq:charm-down-plugin-storage:3.8.6" level="project" />
+    <orderEntry type="library" name="Gradle: com.gluonhq:connect:1.5.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.airhacks:afterburner.mfx:1.6.3" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.gluonhq:charm-down-plugin-storage-desktop:3.8.6" level="project" />
+    <orderEntry type="library" name="Gradle: commons-codec:commons-codec:1.10" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.commons:commons-collections4:4.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.poi:poi-ooxml-schemas:3.17" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.virtuald:curvesapi:1.04" level="project" />
+    <orderEntry type="library" name="Gradle: com.gluonhq:charm-down-plugin-device:3.8.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.gluonhq:charm-down-plugin-in-app-billing:3.8.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.gluonhq:charm-down-plugin-push-notifications:3.8.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.gluonhq:charm-down-plugin-runtime-args:3.8.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.gluonhq:charm-down-core:3.8.6" level="project" />
+    <orderEntry type="library" name="Gradle: org.glassfish:javax.json:1.0.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.xmlbeans:xmlbeans:2.6.0" level="project" />
+    <orderEntry type="library" name="Gradle: stax:stax-api:1.0.1" level="project" />
+  </component>
+</module>
